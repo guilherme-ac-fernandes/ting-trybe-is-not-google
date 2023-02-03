@@ -1,10 +1,9 @@
 from ting_file_management.abstract_queue import AbstractQueue
-import sys
 
 
 class Queue(AbstractQueue):
     def __init__(self):
-        self._list = list() 
+        self._list = list()
 
     def __len__(self):
         return len(self._list)
