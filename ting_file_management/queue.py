@@ -13,7 +13,7 @@ class Queue(AbstractQueue):
 
     def dequeue(self):
         if len(self._list) == 0:
-            return None
+            raise IndexError
         return self._list.pop(0)
 
     def search(self, index):
