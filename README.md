@@ -60,7 +60,7 @@ Consiste em uma aplicação que simula um algoritmo de indexação de documentos
 │   ├──🔸__init__.py
 │   └──🔹word_search.py
 ├──🔸dev-requirements.txt
-├──🔸main.py
+├──🔹main.py
 ├──🔸pyproject.toml
 ├──🔸README.md
 ├──🔸requirements.txt
