@@ -95,6 +95,7 @@ python3 -m pytest
 
 ### Execução da Aplicação
 > No arquivo `main.py` contém os exemplos para execução da aplicação descritos abaixo:
+> comando: python3 -m main
 
 <br />
 1. Criei uma instância da Classe Queue e adicione informações presentes nos arquivos TXT presentes no diretório `statics`:
