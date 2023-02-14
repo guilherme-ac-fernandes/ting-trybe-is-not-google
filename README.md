@@ -13,7 +13,7 @@ Consiste em uma aplicação que simula um algoritmo de indexação de documentos
 | Função/Classe | Descrição | Localização |
 |---|---|---|
 | `Queue` | Classe criada para armazenamento de arquivos por filas | `ting_file_management/queue.py` |
-| `txt_importer` | Função capaz de ler os arquivos TXT e retorna em formato de array`/`lista` | `ting_file_management/file_management.py` |
+| `txt_importer` | Função capaz de ler os arquivos TXT e retorna em formato de `array`/`lista` | `ting_file_management/file_management.py` |
 | `process` | Função para importar informações do arquivo TXT e adicionar na instância da Classe Queue informada | `ting_file_management/file_process.py` |
 | `remove` | Função para remover o primeiro arquivo presente na instância informada | `ting_file_management/file_process.py` |
 | `file_metadata` | Função para encontrar um dado presente na instância atráves do index informado | `ting_file_management/file_process.py` |
@@ -107,6 +107,7 @@ process('statics/nome_pedro.txt', queue)
 
 print('--> Primeiro Elemento da Fila:', queue.search(0))
 print('--> Segundo Elemento da Fila:', queue.search(1))
+```
 
 <br />
 2. Outra forma de localizar as informações presentes mediante ao `index` é atráves da função `file_metadata`:
@@ -115,6 +116,7 @@ print('--> Segundo Elemento da Fila:', queue.search(1))
 file_metadata(queue, 0)  # Retorna o Primeiro Elemento
 file_metadata(queue, 1)  # Retorna o Segundo Elemento
 file_metadata(queue, 99)  # Retorna "Posição inválida"
+```
 
 <br />
 3. Podemos criar relatório de buscas de palavras presentes na instância atráves das funções `exists_word` e `search_by_word`:
