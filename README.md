@@ -1,4 +1,4 @@
-# TING 💻🔬
+# Projeto TING 💻🔬
 > Trybe is Not Google
 
 Consiste em uma aplicação que simula um algoritmo de indexação de documentos similar ao do Google, capaz de identificar ocorrências presentes em arquivos TXT.
